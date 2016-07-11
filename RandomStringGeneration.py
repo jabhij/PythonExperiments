@@ -72,3 +72,5 @@ string_length = ascii_uppercase + string.digits
 
 # Using JOIN functionality to combine Char and Digits
 print (''.join(choice(string_length) for char in range(6)))
+
+        
