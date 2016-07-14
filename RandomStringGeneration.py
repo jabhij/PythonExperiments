@@ -23,7 +23,7 @@ def random_string(string_len):
 
 print (random_string(6))
 
------------------------------------------------------
+#-----------------------------------------------------
 
 """ Method2 """
 
@@ -37,7 +37,7 @@ char = (string.ascii_uppercase + string.digits)
 # Using JOIN functionality to combine Char and Digits
 print (''.join(random.sample(char*6, 6)))
 
------------------------------------------------------
+#-----------------------------------------------------
 
 """ Method 3 """
 
@@ -59,7 +59,7 @@ def random_string(string_len):
 
 print (random_string(6))
 
------------------------------------------------------
+#-----------------------------------------------------
 
 """ Method 4 """
 
@@ -72,5 +72,3 @@ string_length = ascii_uppercase + string.digits
 
 # Using JOIN functionality to combine Char and Digits
 print (''.join(choice(string_length) for char in range(6)))
-
-        
